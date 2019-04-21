@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/lbOrigem"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="@dimen/size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.4"
+            android:text="@string/lbUf"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/lbUfOrigem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibUfO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_weight="0.1"
+            android:background="#ffff"
+            android:src="@drawable/ic_search"
+            android:text="@string/btPesquisar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_weight="0.1"
+            android:text="@string/lbCidade"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/lbCidadeOrigem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibCidadeO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_weight="0.1"
+            android:background="#ffff"
+            android:src="@drawable/ic_search"
+            android:text="@string/btPesquisar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_weight="0.1"
+            android:text="@string/lbCep"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/lbCepO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibCepO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_weight="0.1"
+            android:background="#ffff"
+            android:src="@drawable/ic_search"
+            android:text="@string/btPesquisar" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/colorPrimary"
+        android:text="@string/lbDestino"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="@dimen/size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.4"
+            android:text="@string/lbUf"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/lbUfDestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibUfD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_weight="0.1"
+            android:background="#ffff"
+            android:src="@drawable/ic_search"
+            android:text="@string/btPesquisar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_weight="0.1"
+            android:text="@string/lbCidade"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/lbCidadeDestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibCidadeD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_weight="0.1"
+            android:background="#ffff"
+            android:src="@drawable/ic_search"
+            android:text="@string/btPesquisar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_weight="0.1"
+            android:text="@string/lbCep"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/lbCepD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ibCepD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_weight="0.1"
+            android:background="#ffff"
+            android:src="@drawable/ic_search"
+            android:text="@string/btPesquisar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Calcular Frete"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="@dimen/size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Peso"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tvValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="valor:"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimary"
+            android:hint="Calcular"
+            android:textAlignment="center"
+            android:textColorHint="#ffff"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvresultadoFrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Resultado:"
+        android:textSize="20dp"
+
+        />
+
+</LinearLayout>

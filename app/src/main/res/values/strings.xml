@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CalcularFrete</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Luana Mora</string>
+    <string name="nav_header_subtitle">lcmora@minha.fag.edu.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="lbOrigem">Origem</string>
+    <string name="lbDestino">Destino</string>
+    <string name="btPesquisar">Pesquisar</string>
+    <string name="lbUf">UF</string>
+    <string name="lbCidade">Cidade</string>
+    <string name="lbCep">CEP</string>
+    <string name="imPesquisar">Pesquisar</string>
+    <string name="title_activity_main_origem">MainOrigem</string>
+    <string name="lbUfOrigem">UF ORIGEM</string>
+    <string name="lbUfDestino">UF DESTINO</string>
+    <string name="lbCidadeOrigem">CIDADE ORIGEM</string>
+    <string name="lbCidadeDestino">CIDADE DESTINO</string>
+    <string name="title_activity_lov_frete">LovFrete</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main__cad_estado">Cadastro</string>
+    <string name="lbCodigoEstado">Código</string>
+    <string name="lbUfEstado">UF</string>
+    <string name="lbDescricaoEstado">Descrição</string>
+    <string name="lbValor">Valor Frete</string>
+    <string name="btSalvar">Salvar</string>
+    <string name="btCancelar">Cancelar</string>
+</resources>
